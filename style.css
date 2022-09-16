@@ -1,0 +1,146 @@
+body {
+    margin: 0;    
+    text-align: center;
+}
+
+hr {
+    background-color: rgb(240, 240, 240);
+    border: double black;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.intro {
+    padding-top: 275px;
+    font-size: 20px;
+}
+
+.bulldog {
+    color: rgb(236, 169, 169);
+    position: absolute;
+    left: 50px;
+    bottom: 650px;    
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.ugalogo {
+    position: absolute;
+    border-style: double;
+    border-color: black;
+    border-radius: 100px;
+    bottom: 600px;
+    left: 540px;
+}
+
+.headshot {
+    position: absolute;
+    max-width: 25%;
+    max-height: 25%;
+    bottom: 650px;
+    left: 1400px;
+}
+
+.div1 {
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div2 {
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+    padding-bottom: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div3 {
+    text-align: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: lightgray;
+    border: solid lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: hotpink;
+}
+
+a:hover {
+    color: peru;
+}
+
+a:visited {
+    color: green;
+}
+
+a.button {
+    color: black;
+    background-color: lightcoral;
+    text-decoration: none;
+    padding: 10px;
+    border: solid black;
+    text-align: center;
+    display: inline-block;
+}
+
+.section {
+    margin-left: 25%;
+    margin-right: 25%;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+}
+
+.autobell {
+    float: right;
+    margin-right: 200px;
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.javalogo {
+    float: left;
+    padding-right: 25px;
+    margin-left: 300px;
+    max-width: 15%;
+    max-height: 15%;
+}
+
+
+.cslogo {
+    float: left;
+    margin-left: 200px;
+    max-width: 15%;
+    max-height: 15%;
+}
+
+.contact {
+    font-size: 20px;
+}
+
+.form {
+    margin-left: 40%;
+    display: flex;
+}
